@@ -1,0 +1,68 @@
+Internship Project Report
+Intern Name: HARINI P
+Email: pharini828@gmail.com
+Institute: Panimalar Engineering College, Chennai City Campus
+Internship Duration: 06-07-2025 to 06-08-2025
+Mentor/Supervisor: NullClass Team
+
+Project 1: Activation Map Visualization for Emotion Detection Using CNN
+1. Introduction
+The goal of this project was to visualize the internal feature maps (activation maps) of a CNN trained for facial emotion recognition. This improves interpretability and transparency of deep learning models.
+2. Problem Statement
+CNNs are powerful but often operate as black boxes. To build trust in AI, we visualized which parts of the face the CNN uses to detect emotions.
+3. Tools and Technologies Used
+Python 3.10, TensorFlow/Keras, OpenCV, Matplotlib, NumPy, Jupyter Notebook
+4. Dataset Used
+Grayscale facial images (48x48), 7 classes: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
+5. Implementation Workflow
+CNN model built and trained → Saved (JSON, H5) → Intermediate layer outputs extracted → Visualized using matplotlib
+6. Challenges
+Initialization, shape mismatch, and file errors were resolved through proper layer usage and debugging.
+7. Key Learnings
+Understood CNN internals, improved interpretability with visualization
+8. Future Scope
+Use Grad-CAM, deploy on mobile
+9. Conclusion
+This project enhanced the explainability of CNN emotion detectors.
+
+
+Project 2: Real-Time Drowsiness and Age Detection Using Deep Learning
+1. Introduction
+Real-time application for drowsiness and age detection useful in safety monitoring for drivers and workers.
+2. Problem Statement
+Drowsy driving causes accidents. Real-time detection is critical.
+3. Tools and Technologies Used
+Python 3.10, OpenCV, TensorFlow/Keras, Tkinter, Jupyter Notebook, Anaconda
+4. Dataset Used
+Drowsiness Dataset: 48,000 images; Age Dataset: UTKFace from Kaggle
+5. Implementation Workflow
+Data preprocessing → CNN training for eye state and age → Webcam stream processed → Tkinter GUI summary
+6. Challenges
+Imbalanced data, real-time latency, model load errors
+7. Key Learnings
+Integrated two models, GUI and webcam in a real-time setting
+8. Future Scope
+Add emotion detection, deploy on embedded systems
+9. Conclusion
+Successfully built a scalable safety-enhancing application.
+
+
+Project 3: Age and Emotion Detection for Movie Theatre
+1. Introduction
+Developed a system to detect age/emotion and restrict entry based on age for theatre audiences, logging emotions.
+2. Background
+Useful for age-based access, audience analytics, emotion tracking in entertainment venues.
+3. Learning Objectives
+Face detection, model integration, rule-based filtering, CSV logging, GUI
+4. Activities and Tasks Performed
+Detected faces → Predicted age and emotion → Applied rules (13–60) → Logged results to CSV
+5. Skills and Competencies Acquired
+Deep learning integration, OpenCV, rule logic, pandas CSV logging
+6. Feedback and Evidence
+Accuracy ≥70%, CSV logs confirm successful testing
+7. Challenges and Solutions
+Handled model file issues, lighting problems, GUI refresh errors
+8. Outcomes and Impact
+End-to-end modular system with rule-based logic and logging
+9. Conclusion
+Successfully built a theatre monitoring system using deep learning
